@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(94, 80, 43);
+    font-family: poppins,sans-serif;
+    padding-top: 80px;
+}
+
+form{
+    width: 65%;
+    background-color: rgba(255, 255, 0, 0.87);
+    margin: auto;
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px 3px rgb(136, 136, 62);
+}
+
+h1{
+    font-size: 35px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+input[type=text] {
+    padding-left: 20px;
+    box-shadow: 1px 1px 2px 2px rgba(87, 76, 76, 0.158);
+    height: 55px;
+    outline: none;
+    border: none;
+    width: 100%;
+    font-size: 15px;
+    margin: auto;
+    color: black;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+
+
+input[type=number] {
+    padding-left: 20px;
+    box-shadow: 1px 1px 2px 2px rgba(87, 76, 76, 0.158);
+    height: 55px;
+    outline: none;
+    border: none;
+    width: 300px;
+    font-size: 15px;
+    color: black;
+    margin-right: 20px;
+    margin-bottom: 0px;
+}
+
+input[type=date] {
+    padding-left: 20px;
+    box-shadow: 1px 1px 2px 2px rgba(87, 76, 76, 0.158);
+    height: 40px;
+    outline: none;
+    border: none;
+    width: 300px;
+    color: black;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+
+input[type=checkbox] {
+    margin-bottom: 15px;
+}
+
+label{
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+textarea{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    max-height: 200px;
+    min-width: 45%;
+    max-width: 50%;
+    outline: none;
+    min-height: 50px;
+    margin-bottom: 30px;
+}
+
+input[type=range]{
+    color: red;
+    min-width: 40%;
+    margin-bottom: 50px;
+    max-width: 100%; 
+}
+
+input[type=submit]{
+    padding: 15px 60px;
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    border: none;
+    margin: auto;
+}
+
+@media screen and (max-width:700px){
+    form{
+        padding: 25px;
+    }
+    input[type=number]{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    textarea{
+        min-width: 100%;
+        max-width: 100%;
+    }
+    input[type=range]{
+        width: 80%;
+    }
+    input[type=submit]{
+        padding: 10px 40px;
+        font-size: 18px;
+    }
+}
